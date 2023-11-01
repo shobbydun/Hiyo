@@ -31,7 +31,7 @@ exit;
 <label for="password"><b>Password</b></label>
 <input type="password" placeholder="Enter password" id="password" name="user_password" required>
 
-<button type="submit">Log_ndani</button>
+<button type="submit">log_in</button>
 </div>
 <?php
 if(isset($success_message)){
@@ -42,7 +42,7 @@ echo '<div class="error_message">'.$error_message.'</div>';
 }
 ?>
 <div class="container" style="background-color:#f1f1f1">
-<a href="signup.php"><button type="button" class="Regbtn">Unda account bana</button></a>
+<a href="signup.php"><button type="button" class="Regbtn">make account</button></a>
 </div>
 </form>
 </body></html>
